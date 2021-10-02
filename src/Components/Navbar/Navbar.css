@@ -1,0 +1,125 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    font-family: 'poppins' !important;
+    padding: 15px 0px !important;
+    box-shadow: -2px 4px 20px -4px rgba(0, 0, 0, 0.5) !important;
+    z-index: 1000 !important;
+    position: fixed;
+    top: 0;
+    
+    background-color: #fff !important;
+}
+
+.navbar-mobile{
+    display: none !important;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-family: 'poppins' !important;
+    padding: 15px 0px !important;
+    box-shadow: -2px 4px 20px -4px rgba(0, 0, 0, 0.5);
+    z-index: 1000 !important;
+    position: fixed;
+    top: 0;
+    background-color: #fff !important;
+}
+
+.navbar-mobile>div > .navbar-icon{
+    margin: 0px 10px !important;
+}
+
+.navbar-logo{
+    width: 100px !important;
+    height: auto;
+}
+
+.navbar-item{
+    font-weight: thin !important;
+    color: grey !important;
+    font-family: 'poppins' !important;
+}
+
+.navbar-form{
+     display: flex !important;
+     align-items: center !important;
+     padding: 10px !important;
+     border-radius: 50px !important;
+     border: 1px solid grey !important;
+     width: 40% !important;
+     background-color: #f8f9fb !important;
+}
+
+.navbar-icon{
+    color: grey !important;
+}
+
+
+.navbar-input{
+    outline: none !important;
+    border: none !important;
+    background: none !important;
+    color: grey !important;
+    font-weight: thin !important;
+    width: 100% !important;
+}
+
+.navbar-button-white{
+    background-color: white !important;
+    color: black !important;
+    font-weight: 600 !important;
+    font-family: 'poppins' !important;
+    border: 2px solid black !important;
+    border-radius: 0px !important;
+    width: fit-content !important;
+    font-style: normal !important;
+}
+
+.navbar-button-black{
+    background-color: black !important;
+    color: white !important;
+    font-weight: 600 !important;
+    font-family: 'poppins' !important;
+    border: 2px solid black !important;
+    border-radius: 0px !important;
+    width: fit-content !important;
+    height: fit-content !important;
+    font-style: normal !important;
+}
+
+
+.icon-web{
+    width: 25px !important;
+    height: 25px !important;
+    margin: 0px !important;
+}
+
+@media(max-width:1300px){
+    .navbar-form{
+        width: 30% !important;
+    }
+}
+
+@media(max-width: 1080px){
+    .udemy{
+        display: none !important;
+    }
+}
+
+@media(max-width: 920px){
+    .teach{
+        display: none !important;
+    }
+}
+
+@media(max-width: 800px){
+    .navbar{
+        display: none !important;
+    }
+
+    .navbar-mobile{
+        display: flex !important;
+    }
+}
